@@ -1,0 +1,54 @@
+*{
+    font-family: 'Poppins';
+}
+.header{
+    
+    display: flex;
+    background-color: #E1CB3D;
+    justify-content: space-around;
+  
+    height: 150px;
+    width: 100%;
+    
+    align-items: center;
+ 
+}
+.header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:end;
+    justify-content: end;
+    /*define a quebra de linha para caber as coisas do menu */
+}
+.header nav a{
+    display: block;
+    padding: 10px;
+    color: #000000;
+    font-size: 1.125em;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+.header nav a:hover{
+    background: #b9a833;
+    /*para quando passar o mouse encima ele mudar de cor*/
+}
+
+
+#buscar{
+    border-radius: 10px;
+    width: 310px;
+    height: 39px;
+    justify-content: center;
+    margin: 0px;
+    margin-bottom: 200px;
+
+}
+
+.isso{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 35px;
+ 
+    border-radius: 5px;
+}
